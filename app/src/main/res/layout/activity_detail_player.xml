@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView   xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/dimen_10"
+    tools:context="id.dicoding.nian.footballapps.detailplayer.DetailPlayerActivity">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <ImageView
+        android:layout_gravity="center"
+        android:id="@+id/strCutout"
+        android:scaleType="fitCenter"
+        android:layout_width="@dimen/dimen_80"
+        android:layout_height="@dimen/dimen_80" />
+    <TextView
+        android:id="@+id/strPlayer"
+        style="@style/TextPlayer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/strNationality"
+        style="@style/TextPlayer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/dateBorn"
+        style="@style/TextPlayer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/strPosition"
+        style="@style/TextPlayer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/strDescriptionEN"
+        style="@style/TextPlayer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
+</ScrollView>
